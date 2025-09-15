@@ -1,0 +1,99 @@
+/* CSS for Desoete Voliere based on logo colors */
+
+:root {
+  --primary-green: #7AC74F; /* Green bird */
+  --secondary-blue: #42B7D8; /* Blue bird */
+  --accent-yellow: #F6D74F; /* Yellow highlights */
+  --accent-orange: #F28C40; /* Orange highlights */
+  --neutral-bg: #FFF8F0; /* Light cream background */
+  --text-color: #1A3C40; /* Dark teal for text */
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--neutral-bg);
+  color: var(--text-color);
+}
+
+header.site-header {
+  background-color: var(--primary-green);
+  color: white;
+  padding: 1rem 0;
+}
+
+header .site-title {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header .site-subtitle {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--accent-yellow);
+}
+
+nav.main-nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+
+nav.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav.main-nav a:hover {
+  color: var(--accent-orange);
+}
+
+header .header-utils input[type="search"] {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--accent-yellow);
+  border-radius: 4px;
+}
+
+header .header-utils button {
+  background-color: var(--accent-yellow);
+  border: none;
+  padding: 0.3rem 0.5rem;
+  margin-left: 0.2rem;
+  cursor: pointer;
+}
+
+header .header-utils button:hover {
+  background-color: var(--accent-orange);
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: var(--secondary-blue);
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.site-footer {
+  background-color: var(--primary-green);
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.site-footer .credits {
+  font-size: 0.8rem;
+  color: var(--accent-yellow);
+}
