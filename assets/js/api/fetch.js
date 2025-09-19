@@ -9,6 +9,7 @@ function betterFetch(){
             }
         }
     )
+    console.log("test");
 
     return response.json;
 }
